@@ -67,7 +67,7 @@
    - Running `CO2_Projection_wpp2024_updated_to_2024.R` typically takes 10 hours.
    - Running either `paris_cleanedup_wpp2024_updated_to_2024.R` or `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` takes approximately 6 hours each, depending on system performance.
 
-4. **A small simulation to demo the software**:
+4. **A Small Simulation to Demo the Software**:
 
 ## Instructions for Use
 1. **How to Run the Software on Your Own Data**:
