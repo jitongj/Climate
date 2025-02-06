@@ -43,4 +43,25 @@
        "rjags", "coda", "xtable", "ggplot2", "gridExtra", 
        "scales", "MASS", "car", "readxl", "rworldmap", "pracma"
    ))
+   
 ## Demo
+1. **Instructions to Run on Data**:
+   - Step 1: Run the script `CO2_Projection_wpp2024_updated_to_2024.R` to generate three data files:
+     - `poppreds_formatted_2024_2100`
+     - `model_results_ar1const_2024`
+     - `proj_evals_ar1const_2024`
+     These data files will be used in Step 2.
+   - Step 2: Depending on the scenario, run one of the following scripts:
+     - For NDC-1 (Nationally Determined Contributions First Version):  
+       Run `paris_cleanedup_wpp2024_updated_to_2024.R`
+     - For NDC-2 (Nationally Determined Contributions Latest Version):  
+       Run `paris_cleanedup_wpp2024_updated_to_2024_newndc.R`
+   - These scripts will produce the figures and tables included in the manuscript.
+
+2. **Expected Output**:
+   - The scripts in Step 2 will output the figures and tables as presented in the paper.
+
+3. **Expected Run Time for Demo on a "Normal" Desktop Computer**:
+   - Running `CO2_Projection_wpp2024_updated_to_2024.R` typically takes 10 hours.
+   - Running either `paris_cleanedup_wpp2024_updated_to_2024.R` or `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` takes approximately 6 hours each, depending on system performance.
+
