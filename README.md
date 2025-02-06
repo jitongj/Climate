@@ -3,27 +3,27 @@
   The software requires R version 4.3 or higher. Ensure that the following R packages are installed:
   | Package           | Version       |
   |-------------------|---------------|
-  | gdata             | 2.18.0        |
-  | plyr              | 1.8.8         |
-  | countrycode       | 1.4.0         |
-  | doBy              | 4.6.12        |
+  | gdata             | 3.0.0         |
+  | plyr              | 1.8.9         |
+  | countrycode       | 1.6.0         |
+  | doBy              | 4.6.24        |
   | reshape2          | 1.4.4         |
-  | wpp2024           | 1.0.0         |
-  | bayesTFR          | 7.4-1         |
-  | bayesLife         | 4.0-3         |
-  | bayesPop          | 7.0-0         |
-  | popReconstruct    | 1.3-0         |
-  | rjags             | 4-12          |
-  | coda              | 0.19-4        |
+  | wpp2024           | 1.0-1         |
+  | bayesTFR          | 7.4-4         |
+  | bayesLife         | 5.3-0         |
+  | bayesPop          | 10.0-1.9019   |
+  | popReconstruct    | 1.0-6         |
+  | rjags             | 4-15          |
+  | coda              | 0.19-4.1      |
   | xtable            | 1.8-4         |
-  | ggplot2           | 3.4.0         |
+  | ggplot2           | 3.5.1         |
   | gridExtra         | 2.3           |
-  | scales            | 1.2.1         |
-  | MASS              | 7.3-58.3      |
-  | car               | 3.1-1         |
-  | readxl            | 1.4.1         |
-  | rworldmap         | 1.3-6         |
-  | pracma            | 2.3.8         |
+  | scales            | 1.3.0         |
+  | MASS              | 7.3-61        |
+  | car               | 3.1-3         |
+  | readxl            | 1.4.3         |
+  | rworldmap         | 1.3-8         |
+  | pracma            | 2.4.4         |
 
   **Note**: Versions are accurate as of February 5, 2025. It's recommended to check for the latest versions before installation.
 
