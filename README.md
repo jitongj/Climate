@@ -56,10 +56,12 @@
        Run `paris_cleanedup_wpp2024_updated_to_2024.R`
      - For NDC-2 (Nationally Determined Contributions Latest Version):  
        Run `paris_cleanedup_wpp2024_updated_to_2024_newndc.R`
-   - These scripts will produce the figures and tables included in the manuscript.
+     Figure 4 will be generated in this step.
+   - Step 3: Run the script `plot_figure.R` to generate Figure 1, Figure 2, and Figure 3 featured in the paper.
+     Additionally, run the script `increase_ndc.R` to produce the data for Table 1.
 
 2. **Expected Output**:
-   - The scripts in Step 2 will output the figures and tables as presented in the paper.
+   - The scripts in Step 2 and Step 3 will output the figures and tables as presented in the paper.
 
 3. **Expected Run Time for Demo on a "Normal" Desktop Computer**:
    - Running `CO2_Projection_wpp2024_updated_to_2024.R` typically takes 10 hours.
