@@ -53,6 +53,8 @@
     └── Intensity/
 
     - Dowlond the `Simulation` folder for this link and put it under the `NatureData` folder:
+      NatureData/
+    └── Simulation/
 
 3. **Instructions to Run on Data**:
    - Step 1: Modify the working direction in the script `CO2_Projection_wpp2024_updated_to_2024.R` at `line 31` to the current folder and run it to generate three data files:
