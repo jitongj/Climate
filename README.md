@@ -47,9 +47,10 @@
 ## Demo
 1.  **Download the Dataset and Create Folders**:
     - Run the following commands in your terminal to create the necessary folder structure:
-
-```sh
-mkdir -p Pairs/Comparison Pairs/Cumulative Pairs/Intensity
+    Pairs/
+├── Comparison/
+├── Cumulative/
+└── Intensity/
 
     - Dowlond the `Simulation` folder for this link and put it under the `NatureData` folder:
 
