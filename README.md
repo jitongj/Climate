@@ -46,12 +46,18 @@
    
 ## Demo
 1.  **Download the Dataset and Create Folders**:
-    - In your current working directory, create a folder named Pairs and add the following three subfolders inside it:
-    mkdir -p Pairs/Comparison Pairs/Cumulative Pairs/Intensity
+    - In your current working directory, create a folder named `Pairs` and add the following three subfolders inside it:
 
-    - Dowlond the `Simulation` folder for this link and put it under the `NatureData` folder:
-      NatureData/
-    └── Simulation/
+```bash
+mkdir -p Pairs/Comparison Pairs/Cumulative Pairs/Intensity
+```
+
+  - Download the `Simulation` folder from this link and put it under the `NatureData` folder:
+
+```
+NatureData/
+└── Simulation/
+```
 
 3. **Instructions to Run on Data**:
    - Step 1: Modify the working direction in the script `CO2_Projection_wpp2024_updated_to_2024.R` at `line 31` to the current folder and run it to generate three data files:
