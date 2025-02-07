@@ -46,15 +46,15 @@
    
 ## Demo
 1.  **Download the Dataset and Create Folders**:
-    - In your current working directory, create a folder named `Pairs` and add the following three subfolders inside it:
-
-```bash
-mkdir -p Pairs/Comparison Pairs/Cumulative Pairs/Intensity
-```
-
-  - Download the `Simulation` folder from this link and put it under the `NatureData` folder:
+    - In your current working directory, create a folder named `Pairs` and add the following three subfolders inside it.
+    - Download the `Simulation` folder from this link and put it under the `NatureData` folder.
+    - Structure should be like:
 
 ```
+Pairs/
+└── Comparison/
+└── Cumulative/
+└── Intensity/
 NatureData/
 └── Simulation/
 ```
