@@ -62,7 +62,7 @@ NatureData/
 └── Simulation/
 ```
 
-3. **Instructions to Run on Data**:
+2. **Instructions to Run on Data**:
    - Step 1: Modify the working direction in the script `CO2_Projection_wpp2024_updated_to_2024.R` at `line 31` to the current folder and run it to generate three data files:
      - `poppreds_formatted_2024_2100`
      - `model_results_ar1const_2024`
@@ -78,14 +78,14 @@ NatureData/
    - Step 3: Run the script `plot_figure.R` to generate Figure 1, Figure 2, and Figure 3 featured in the paper.
      Additionally, run the script `increase_ndc.R` to produce the data for Table 1.
 
-4. **Expected Output**:
+3. **Expected Output**:
    - The scripts in Step 2 and Step 3 will output the figures and tables as presented in the paper.
 
-5. **Expected Run Time for Demo on a "Normal" Desktop Computer**:
+4. **Expected Run Time for Demo on a "Normal" Desktop Computer**:
    - Running `CO2_Projection_wpp2024_updated_to_2024.R` typically takes 10 hours.
    - Running either `paris_cleanedup_wpp2024_updated_to_2024.R` or `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` takes approximately 6 hours each, depending on system performance.
 
-6. **A Small Simulation to Demo the Software**:
+5. **A Small Simulation to Demo the Software**:
 
 ## Instructions for Use
 1. **How to Run the Software on Your Own Data**:
