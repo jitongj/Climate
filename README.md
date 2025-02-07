@@ -55,11 +55,11 @@ Pairs/
 └── Intensity/
 ```
 
-    - Download the `Simulation` folder from this link and put it under the `NatureData` folder.
+    - Download the `Simulations` folder from [simulations](https://drive.google.com/drive/folders/1H1Wdqi4Th18vlLN4yOED2rNFN4tUNR5o?usp=sharing). and put it under the `NatureData` folder.
 
 ```
 NatureData/
-└── Simulation/
+└── Simulations/
 ```
 
 2. **Instructions to Run on Data**:
@@ -86,6 +86,7 @@ NatureData/
    - Running either `paris_cleanedup_wpp2024_updated_to_2024.R` or `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` takes approximately 6 hours each, depending on system performance.
 
 5. **A Small Simulation to Demo the Software**:
+   - Repeat 1 and 2 in Demo section with scripts replaced by `demo_CO2_Projection_wpp2024_updated_to_2024.R`,`demo_paris_cleanedup_wpp2024_updated_to_2024.R` or `demo_paris_cleanedup_wpp2024_updated_to_2024_newndc.R`. The runding time will go down to 2 hours and 1 hour respectively.
 
 ## Instructions for Use
 1. **How to Run the Software on Your Own Data**:
