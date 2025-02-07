@@ -45,29 +45,32 @@
    ))
    
 ## Demo
-1. **Instructions to Run on Data**:
-   - Step 1: Run the script `CO2_Projection_wpp2024_updated_to_2024.R` to generate three data files:
+1.  **Download the Dataset and Modify the Working Directory**:
+  - Dowlond the `Simulation` folder for this link and put it under the `NatureData` folder:
+
+2. **Instructions to Run on Data**:
+   - Step 1: Modify the working direction in the script `CO2_Projection_wpp2024_updated_to_2024.R` in line 31 to the current stored folder and run it to generate three data files:
      - `poppreds_formatted_2024_2100`
      - `model_results_ar1const_2024`
      - `proj_evals_ar1const_2024`
      These data files will be used in Step 2.
    - Step 2: Depending on the scenario, run one of the following scripts:
      - For NDC-1 (Nationally Determined Contributions First Version):  
-       Run `paris_cleanedup_wpp2024_updated_to_2024.R`
+       Modify the working direction in the script `paris_cleanedup_wpp2024_updated_to_2024.R` in line 33  and run it.
      - For NDC-2 (Nationally Determined Contributions Latest Version):  
-       Run `paris_cleanedup_wpp2024_updated_to_2024_newndc.R`
+       Modify the working direction in the script `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` in line 33  and run it.
      Figure 4 will be generated in this step.
    - Step 3: Run the script `plot_figure.R` to generate Figure 1, Figure 2, and Figure 3 featured in the paper.
      Additionally, run the script `increase_ndc.R` to produce the data for Table 1.
 
-2. **Expected Output**:
+3. **Expected Output**:
    - The scripts in Step 2 and Step 3 will output the figures and tables as presented in the paper.
 
-3. **Expected Run Time for Demo on a "Normal" Desktop Computer**:
+4. **Expected Run Time for Demo on a "Normal" Desktop Computer**:
    - Running `CO2_Projection_wpp2024_updated_to_2024.R` typically takes 10 hours.
    - Running either `paris_cleanedup_wpp2024_updated_to_2024.R` or `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` takes approximately 6 hours each, depending on system performance.
 
-4. **A Small Simulation to Demo the Software**:
+5. **A Small Simulation to Demo the Software**:
 
 ## Instructions for Use
 1. **How to Run the Software on Your Own Data**:
