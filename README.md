@@ -47,10 +47,7 @@
 ## Demo
 1.  **Download the Dataset and Create Folders**:
     - In your current working directory, create a folder named Pairs and add the following three subfolders inside it:
-    Pairs/
-    ├── Comparison/
-    ├── Cumulative/
-    └── Intensity/
+    mkdir -p Pairs/Comparison Pairs/Cumulative Pairs/Intensity
 
     - Dowlond the `Simulation` folder for this link and put it under the `NatureData` folder:
       NatureData/
