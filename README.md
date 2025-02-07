@@ -49,7 +49,7 @@
   - Dowlond the `Simulation` folder for this link and put it under the `NatureData` folder:
 
 2. **Instructions to Run on Data**:
-   - Step 1: Modify the working direction in the script `CO2_Projection_wpp2024_updated_to_2024.R` in line 31 to the current stored folder and run it to generate three data files:
+   - Step 1: Modify the working direction in the script `CO2_Projection_wpp2024_updated_to_2024.R` in line 31 to the current folder and run it to generate three data files:
      - `poppreds_formatted_2024_2100`
      - `model_results_ar1const_2024`
      - `proj_evals_ar1const_2024`
@@ -59,6 +59,7 @@
        Modify the working direction in the script `paris_cleanedup_wpp2024_updated_to_2024.R` in line 33  and run it.
      - For NDC-2 (Nationally Determined Contributions Latest Version):  
        Modify the working direction in the script `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` in line 33  and run it.
+       
      Figure 4 will be generated in this step.
    - Step 3: Run the script `plot_figure.R` to generate Figure 1, Figure 2, and Figure 3 featured in the paper.
      Additionally, run the script `increase_ndc.R` to produce the data for Table 1.
