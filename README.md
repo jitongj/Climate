@@ -25,7 +25,9 @@
   | rworldmap         | 1.3-8         |
   | pracma            | 2.4.4         |
 
-  **Note**: Versions are accurate as of February 5, 2025. It's recommended to check for the latest versions before installation.
+  **Note**: Versions are accurate as of February 5, 2025. It's recommended to check for the latest versions before installation. The R packages listed above are required to run our code. If additional packages are requested during installation, this may be due to differences in your existing RStudio environment. Please follow the prompts to install any missing dependencies as needed.
+
+
 
 - **Tested Versions**:  
   This software has been tested on R version 4.3.3.
@@ -86,7 +88,7 @@
    - Running either `paris_cleanedup_wpp2024_updated_to_2024.R` or `paris_cleanedup_wpp2024_updated_to_2024_newndc.R` takes approximately 6 hours each, depending on system performance.
 
 5. **A Small Simulation to Demo the Software**:
-   - Repeat 1 and 2 in Demo section with scripts replaced by `demo_CO2_Projection_wpp2024_updated_to_2024.R`,`demo_paris_cleanedup_wpp2024_updated_to_2024.R` or `demo_paris_cleanedup_wpp2024_updated_to_2024_newndc.R`. The runding time will go down to 2 hours and 1 hour respectively.
+   - Repeat 1 and 2 in Demo section with scripts replaced by `demo_CO2_Projection_wpp2024_updated_to_2024.R`,`demo_paris_cleanedup_wpp2024_updated_to_2024.R` or `demo_paris_cleanedup_wpp2024_updated_to_2024_newndc.R`. The running time will go down to 2 hours and 1 hour respectively.
 
 ## Instructions for Use
 1. **How to Run the Software on Your Own Data**:
