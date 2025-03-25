@@ -57,11 +57,15 @@
     └── Intensity/
     ```
 
-    - Download the `Simulations` folder from [simulations](https://drive.google.com/drive/folders/1H1Wdqi4Th18vlLN4yOED2rNFN4tUNR5o?usp=sharing) and put it under the `NatureData` folder.
+    - Download the `Simulations.zip` zip file from and put it under the `NatureData` folder. If the zip file fails to download, you may alternatively download the `Simulations` folder directly in this same link, though this could take more time. The final directory structure under NatureData should look like this:
 
     ```
     NatureData/
     └── Simulations/
+        ├── Sims_E0_2023_2100/
+        ├── Sims_Pop/
+        ├── Sims_Pop_2023_2100/
+        └── Sims_TFR_2023_2100/
     ```
 
 2. **Instructions to Run on Data**:
