@@ -57,7 +57,7 @@
     └── Intensity/
     ```
 
-    - Download the `Simulations.zip` zip file from and put it under the `NatureData` folder. If the zip file fails to download, you may alternatively download the `Simulations` folder directly in this same link, though this could take more time. The final directory structure under `NatureData` should look like this:
+    - Download the `Simulations.zip` zip file from [Download Simulations](https://drive.google.com/drive/folders/1eXlq4Bhc-UqeBD_KtQq26Y-xbCY9Fdjo?usp=sharing) and put it under the `NatureData` folder. If the zip file fails to download, you may alternatively download the `Simulations` folder directly in this same link, though this could take more time. The final directory structure under `NatureData` should look like this:
 
     ```
     NatureData/
